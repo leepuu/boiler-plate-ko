@@ -11,7 +11,7 @@ function LandingPage(props) {
 			if (response.data.success) {
 				props.history.push("/login");
 			} else {
-				alert("로그아웃 실패");
+				alert("로그아웃 실패입니다.");
 			}
 		});
 	};
